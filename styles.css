@@ -2,18 +2,163 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: arial,sans-serif;
+}
+
+.navMenu {
+    font-family: arial,sans-serif;
+    padding-top: 22px;
+    float: right;
 }
 
 .main {
-    width: 30%;
-    margin: 0 auto;
-    background-color: aqua;
+    padding-top: 160px;
+    width: 40%;
+    margin: 0 auto; 
+    clear: both;
+}
+
+.mainFooter {
+    font-family: arial,sans-serif;
+    clear: both;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 9%;
+    background-color: #f2f2f2;
+    color: #5F6368;
+    border: 1px solid #dfe1e5;
+}
+
+.footerRows {
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px solid #dfe1e5;
+}
+
+.footerContent {
+    padding: 12px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.navMenu a {
+    color: #222;
+}
+
+li {
+    padding: 12px;
+    margin-left: -10px;
 }
 
 .logo {
+    display: block;
     margin: 0 auto;
+}
+
+.appsIcon {
+    display: inline;
+    vertical-align: middle;
+    opacity: 0.7;
+}
+
+.appsIcon:hover {
+    opacity: 1;
+}
+
+.searchBox {
+    padding-top: 22px;
+    display: block;
+    text-align: center;
+}
+
+.searchInput {
+    width: 75%;
+    height: 48px;
+    border-radius: 25px;
+    border: 1px solid #dfe1e5;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.searchInput:hover, .searchInput:focus {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+
+.searchButtons {
+    padding-top: 22px;
+    display: block;
+    text-align: center;
+}
+
+.button {
+    padding: 11px 14px;
+    margin: 8px;
+    background-color: #f2f2f2;
+    border: 1px solid #fff;
+    font-size: 14px;
+    color: #5F6368;
+}
+
+.button:hover {
+    background-color: #f8f8f8;
+    border: 1px solid #dfe1e5;
+    color: #222;
+}
+
+#lip {
+    padding-top: 22px;
+    text-align: center;
+}
+
+.smallText {
+    font-size: small;
+}
+
+.locationText {
+    font-size: 15px;
+    color: inherit;
+}
+
+.greyText, .greyText:visited, .greyText:active {
+    color: #5F6368;
+}
+
+.blackText, .blackText:visited, .blackText:active, .blackText:hover {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.leftLinks {
+    float: left;
+}
+
+.rightLinks {
+    float: right;
 }
 
 li {
     display: inline;
+}
+
+a {
+    text-decoration: none; 
+}
+
+.greyText a {
+    text-decoration: none; 
+    color: #5F6368;
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+#signIn {
+    color: #FFF;
+    background-color: #4387fd;
+    padding: 5px 10px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #4387fd;
 }

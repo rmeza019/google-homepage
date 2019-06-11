@@ -6,33 +6,44 @@
         <title>Google</title>
     </head>
     <body>
-        <nav>
+        <nav class="navMenu smallText">
             <ul>
                 <li><a href="#">Gmail</a></li>
                 <li><a href="#">Images</a></li>
-                <li><a href="#"><img src="" alt="Google apps"></a></li>
-                <li><a href="#">Sign in</a></li>
+                <li><a href="#"><img class="appsIcon" src="./resources/gapps.png" width="15" alt="Google apps"></a></li>
+                <li><a id="signIn" href="#">Sign in</a></li>
             </ul>
         </nav>
         <main class="main">
             <img class="logo" src="./resources/googleLogo.png" alt="Google">
-            <form class="search">
-                <input type="text" id="" name="Search" title="Search">
-                <input type="submit" value="Google Search">
-                <input type="submit" value="I'm Feeling Lucky">
-                <p>Google offered in: <a href="#">Español (Latinoamérica)</a></p>
+            <form class="searchForm">
+                <div class="searchBox">
+                    <input class="searchInput" type="text" id="name" name="Search" title="Search">
+                </div>
+                <div class="searchButtons">
+                    <input class="button" type="submit" value="Google Search">
+                    <input class="button" type="submit" value="I'm Feeling Lucky">
+                </div>
+                <p class="smallText" id="lip">Google offered in: <a href="#">Español (Latinoamérica)</a></p>
             </form>
         </main>
         <footer class="mainFooter">
-            <p id="test">Costa Rica</p>
-            <ul>
-                <li><a href="#">Advertising</a></li>
-                <li><a href="#">Business</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Settings</a></li>
-            </ul>
+            <div class="footerRows greyText">
+                <p class="locationText footerContent">Costa Rica</p> 
+            </div>
+            <div class="footerRows smallText greyText">
+                <ul class="leftLinks footerContent">
+                    <li><a href="#">Advertising</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">How Search works</a></li>
+                </ul>
+                <ul class="rightLinks footerContent">
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </div>
         </footer>
     </body>
 </html>
